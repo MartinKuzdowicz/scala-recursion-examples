@@ -6,7 +6,7 @@ import org.junit.Test
 class TreeSpec {
 
   @Test
-  def tree_sum_motheod_should_sum_all_nodes_values = {
+  def tree_sum_function_should_sum_all_nodes_values = {
 
     val rootNode = Node(4)
     val node1 = Node(1)
