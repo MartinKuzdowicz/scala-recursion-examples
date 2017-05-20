@@ -1,5 +1,5 @@
 target/
-.idea/
+.idea
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Scala template
@@ -26,3 +26,4 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 /project/target/
+/.idea/
