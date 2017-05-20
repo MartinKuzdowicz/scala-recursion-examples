@@ -1,4 +1,4 @@
-package com.mkuzdowicz.exercises.recursion.tress
+package com.mkuzdowicz.exercises.recursion.trees
 
 case class Node(value: Int) {
   var left: Node = null;

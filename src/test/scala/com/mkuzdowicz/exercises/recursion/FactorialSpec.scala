@@ -1,6 +1,6 @@
 package com.mkuzdowicz.exercises.recursion
 
-import org.junit.Assert._
+import org.junit.Assert.{assertEquals}
 import org.junit.Test
 
 class FactorialSpec {

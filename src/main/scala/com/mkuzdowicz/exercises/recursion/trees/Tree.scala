@@ -1,4 +1,4 @@
-package com.mkuzdowicz.exercises.recursion.tress
+package com.mkuzdowicz.exercises.recursion.trees
 
 class Tree(root: Node) {
 

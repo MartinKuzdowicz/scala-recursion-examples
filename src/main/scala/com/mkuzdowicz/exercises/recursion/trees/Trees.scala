@@ -1,4 +1,4 @@
-package com.mkuzdowicz.exercises.recursion.tress
+package com.mkuzdowicz.exercises.recursion.trees
 
 object Trees extends App {
 
@@ -12,6 +12,10 @@ object Trees extends App {
 
   rootNode.left = node1
   rootNode.right = node2
+  rootNode.left.left = node3
+  rootNode.left.right = node4
+  rootNode.left.right.left = node5
+  rootNode.left.right.right = node6
 
   val exampleTree = new Tree(rootNode)
 
