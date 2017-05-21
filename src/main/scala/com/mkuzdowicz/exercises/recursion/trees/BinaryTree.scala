@@ -1,6 +1,6 @@
 package com.mkuzdowicz.exercises.recursion.trees
 
-class Tree(root: Node) {
+class BinaryTree(root: Node) {
 
   private def sumValuesOf(node: Node): Int = {
     if (node == null)

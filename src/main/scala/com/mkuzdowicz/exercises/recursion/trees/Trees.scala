@@ -17,7 +17,7 @@ object Trees extends App {
   rootNode.left.right.left = node5
   rootNode.left.right.right = node6
 
-  val exampleTree = new Tree(rootNode)
+  val exampleTree = new BinaryTree(rootNode)
 
   println(s" sum is: ${exampleTree.sum()}")
 

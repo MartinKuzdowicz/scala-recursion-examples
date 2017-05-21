@@ -3,7 +3,7 @@ package com.mkuzdowicz.exercises.recursion.trees
 import org.junit.Assert.{assertEquals}
 import org.junit.Test
 
-class TreeSpec {
+class BinaryTreeSpec {
 
   @Test
   def tree_sum_function_should_sum_all_nodes_values_1 = {
@@ -20,9 +20,9 @@ class TreeSpec {
     rootNode.left.right = node4
     rootNode.left.right.left = node5
     rootNode.left.right.right = node6
-    val tree = new Tree(rootNode)
+    val binaryTree = new BinaryTree(rootNode)
 
-    assertEquals(116, tree.sum())
+    assertEquals(116, binaryTree.sum())
   }
 
   @Test
@@ -32,9 +32,9 @@ class TreeSpec {
     val node2 = Node(500)
     rootNode.left = node1
     rootNode.right = node2
-    val tree = new Tree(rootNode)
+    val binaryTree = new BinaryTree(rootNode)
 
-    assertEquals(521, tree.sum())
+    assertEquals(521, binaryTree.sum())
   }
 
 }
