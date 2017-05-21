@@ -20,7 +20,7 @@ object FizzBuzz extends App {
         case (0, 0) => resultBuff += ((i, FIZZ_BUZZ))
         case (0, _) => resultBuff += ((i, FIZZ))
         case (_, 0) => resultBuff += ((i, BUZZ))
-        case _ =>
+        case _ => resultBuff += ((i, ""))
       }
       fizzBuzzRecursivelyPriv(i + 1, resultBuff)
     }
